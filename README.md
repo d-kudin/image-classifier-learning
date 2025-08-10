@@ -1,7 +1,15 @@
 # Machine Learning — EfficientNetB0 Image Classifier (Transfer Learning)
 
-A clean, reproducible **local (VS Code / CLI)** implementation of an image classifier using **EfficientNetB0** and transfer learning.  
+A clean, reproducible implementation of an image classifier using **EfficientNetB0** and transfer learning.  
 Works with **any** image dataset organized by class (not limited to flowers).
+
+---
+
+<img width="1760" height="800" alt="prediction_Albizia_julibrissin" src="https://github.com/user-attachments/assets/187bccbd-380d-4b7a-885f-8d2955981b82" />
+
+---
+
+<img width="960" height="800" alt="confusion_matrix" src="https://github.com/user-attachments/assets/0c6ceeb3-2d08-4ef0-a76a-43652c3dc20c" />
 
 ---
 
