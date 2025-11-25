@@ -3,6 +3,19 @@
 A clean, reproducible implementation of an image classifier using **EfficientNetB0** and transfer learning.  
 Works with **any** image dataset organized by class (not limited to flowers).
 
+## Results
+
+**Test set:** 50 images (5 classes × 10).  
+**Top-line metrics:** Accuracy **1.0000**, Macro-F1 **1.0000** (from `results/classification_report.txt`).  
+**Confusion matrix:** perfectly diagonal (no misclassifications):
+
+**Example single-image prediction:** model confidence per class; predicted label shown in the title.
+
+**Training curves (JSON):** `results/training_history_stage1.json`, `results/training_history_stage2.json`, `results/training_history_stage3.json`.  
+During Stage 2–3, validation accuracy stays ≈**1.00** with validation loss ≈**0.27–0.33**.
+
+> Note: The test set is intentionally small for demonstration. On larger or out-of-distribution datasets, results will vary; the evaluation script produces the same artifacts for reproducible reporting.
+
 ---
 
 <img width="1760" height="800" alt="prediction_Albizia_julibrissin" src="https://github.com/user-attachments/assets/187bccbd-380d-4b7a-885f-8d2955981b82" />
